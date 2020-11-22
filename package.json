@@ -1,0 +1,28 @@
+{
+  "name": "ironsource-recorder",
+  "version": "1.0.0",
+  "description": "Ironsource Recorder",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "Fadi Zreik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.3",
+    "busboy": "^0.3.1",
+    "cors": "^2.8.5",
+    "ejs": "^2.3.4",
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "formidable": "^1.2.2",
+    "http-status-codes": "^2.1.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "vue": "^1.0.10",
+    "vue-resource": "^0.1.17",
+    "request": "^2.88.2"
+  }
+}
