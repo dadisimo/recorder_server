@@ -1,7 +1,7 @@
 pipeline {
   agent {
-    docker {
-      image 'myjenkins:1'
+    node {
+      label 'Master'
     }
 
   }
