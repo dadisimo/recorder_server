@@ -1,7 +1,7 @@
 pipeline {
   agent {
     docker {
-      image 'jenkinsimage'
+      image 'myjenkins:1'
     }
 
   }
